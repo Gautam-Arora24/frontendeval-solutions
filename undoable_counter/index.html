@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Undoable Counter
+        </title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1> Undoable Counter</h1>
+            <div class="buttons">
+                <button class="undo">Undo</button>
+                <button disabled class="redo">Redo</button>
+            </div>
+
+            <div class="control_buttons">
+                <button class="control">-100</button>
+                <button class="control">-10</button>
+                <button class="control">-1</button>
+
+                <h1 class="score">0</h1>
+
+                <button class="control">+100</button>
+                <button class="control">+10</button>
+                <button class="control">+1</button>
+            </div>
+
+            <div class="history">
+                <h2> History</h2>
+                <div class="history_container"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
