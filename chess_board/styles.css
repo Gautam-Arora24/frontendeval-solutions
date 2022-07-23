@@ -1,0 +1,45 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess_board {
+    height: 606px;
+    width: 606px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.row {
+    height: 75px;
+    width: 600px;
+    box-sizing: border-box;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: flex;
+}
+
+.row:first-child {
+    margin-top: 3px;
+}
+
+.row:last-child {
+    margin-bottom: 3px;
+}
+
+.cell {
+    box-sizing: border-box;
+    height: 75px;
+    width: 75px;
+}
+
+.black_cell {
+    background-color: black;
+}
+
+.red_cell {
+    background-color: red;
+}
